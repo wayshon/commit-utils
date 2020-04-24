@@ -1,0 +1,16 @@
+.vscode
+.DS_Store
+node_modules
+**/*/node_modules
+log
+output
+build
+es
+lib
+.idea/
+yarn-error.log
+package-lock.json
+**/*/.bundle-analyzer
+**/*/build
+dist
+__coverage__
