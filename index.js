@@ -49,6 +49,6 @@ inquirer.prompt(questions).then(answers => {
       console.log(err);
       return;
     }
-    console.log('Have a nice day!😀');
+    console.log('Brother 666 🤙🤙🏻🤙🏼🤙🏽🤙🏾🤙🏿');
   });
 });
