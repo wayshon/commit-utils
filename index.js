@@ -46,9 +46,9 @@ inquirer.prompt(questions).then(answers => {
   exec(`git commit -m "${type.replace(/.* {2}/,'')}(${scope}): ${subject}"`, (err, stdout, stderr) => {
     if (err) {
       // node couldn't execute the command
-      console.log(err);
+      console.error(err);
       return;
     }
-    console.log('Brother 666 🤙🤙🏻🤙🏼🤙🏽🤙🏾🤙🏿');
+    console.info('Brother 666 🤙🤙🏻🤙🏼🤙🏽🤙🏾🤙🏿');
   });
 });
