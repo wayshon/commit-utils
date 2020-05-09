@@ -11,7 +11,7 @@ const questions = [
     name: 'type',
     message: 'type',
     choices: [
-      '😃  feature',
+      '😃  feat',
       '🤔  wip',
       '🤪  fix',
       '🧐  test',
